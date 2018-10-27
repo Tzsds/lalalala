@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{ 
+    background: url(../../image/background.jpg) no-repeat;
+    background-size:cover;
+}
+
+.msg {
+    color: red;
+}
+
+/*========================================*/
+.title {
+    margin: 10px;
+    text-align:center;
+}
+
+.subtitle {
+    margin: 10px;
+    text-align:center;
+}
+
+.searchBar {
+    margin: 10px;
+    text-align: center;
+}
+
+.searchBar button {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+/*========================================*/
+table {
+    text-align:center;
+    margin: 0 auto;
+    margin-top: 20px;
+    table-layout:fixed;
+}
+
+table th {
+    padding: 5px;
+}
+
+table td {
+    padding: 5px;
+}
+
+/*========================================*/
+.backBTN {
+    text-align: right;
+    margin: 20px;
+}
+
+.backBTN button {
+    width: 150px;
+    padding: 3px 5px 3px 5px;
+}

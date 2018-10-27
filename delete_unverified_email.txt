@@ -1,0 +1,13 @@
+drop event if exists delete_unverified_email;
+
+CREATE EVENT delete_unverified_email
+ON schedule every 10*60 second
+ON COMPLETION PRESERVE ENABLE DO
+DELETE FROM admin WHERE IsEmailConfirmed = 0;
+
+alter event delete_unverified_email on completion preserve enable;
+
+SELECT * FROM attendance WHERE TIMESTAMPDIFF(MINUTE, (SELECT StartTimeStamp FROM attendance limit 1), now()) > 30;
+
+
+

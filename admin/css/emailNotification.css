@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{ 
+    background: url(../../image/background.jpg) no-repeat;
+    background-size:cover;
+}
+
+.msg {
+    color: red;
+}
+
+/*========================================*/
+.title {
+    text-align: center;
+    margin: 10px;
+}
+
+.email {
+    margin: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+/*========================================*/
+.emailFieldsetContainer {
+    width: 50%;
+    float: left;
+}
+
+.emailFieldset {
+    margin: 20px;
+    padding: 20px;
+}
+
+.emailFieldset .Introduction {
+    color: red;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.emailFieldset legend {
+    padding: 5px;
+}
+
+.emailNotificationContainer {
+    height: 30px;
+}
+
+.emailNotificationContainer label {
+    margin-left: 10px;
+    position: relative;
+    top: -3px;
+}
+
+.emailNotification {
+    margin-left: 5px;
+}
+
+.emailNotification {
+    -ms-transform: scale(1.5); /* IE */
+    -moz-transform: scale(1.5); /* FireFox */
+    -webkit-transform: scale(1.5); /* Safari and Chrome */
+    -o-transform: scale(1.5); /* Opera */
+}
+
+/*========================================*/
+.feedbackFieldsetContainer {
+    width: 50%;
+    float: left;
+}
+
+.feedbackFieldset {
+    margin: 20px;
+    padding: 20px;
+}
+
+.feedbackFieldset .Introduction {
+    color: red;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.feedbackFieldset .Introduction2 {
+    color: red;
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+
+.feedbackFieldset legend {
+    padding: 5px;
+}
+
+.feedback {
+    background-color: white;
+    margin: 0 auto;
+    width: 95%;
+    padding: 10px;
+    height: 150px;
+    border: 1px lightGray solid;
+    overflow: auto;
+}
+
+.feedbackBTN {
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.feedbackBTN button {
+    width: 100px;
+    margin: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/*========================================*/
+.formBTN {
+    clear: both;
+    margin: 20px;
+}
+
+.formBTN input {
+    margin: 0px 5px 0px 5px;
+    padding: 2px 5px 2px 5px;
+}

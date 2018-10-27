@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{ 
+    background: url(../../image/background.jpg) no-repeat;
+    background-size:cover;
+}
+
+.msg {
+    text-align: center;
+    color: red;
+}
+
+/*========================================*/
+.title {
+    text-align: center;
+    margin: 10px;
+}
+
+.login {
+    text-align: center;
+    margin: 10px;
+}

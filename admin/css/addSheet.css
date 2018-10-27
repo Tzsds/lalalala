@@ -1,0 +1,479 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{ 
+    background: url(../../image/background.jpg) no-repeat;
+    background-size:cover;
+}
+
+.msg {
+    color: red;
+}
+
+.msg2 {
+    text-align: center;
+    font-weight: bold;
+    color: red;
+}
+
+/*========================================*/
+.title {
+    text-align: center;
+    margin: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    margin: 10px;
+    font-weight: bold;
+}
+
+/*========================================*/
+.attributeFieldset {
+    margin: 20px;
+    padding: 20px;
+}
+
+.attributeFieldset legend {
+    padding: 5px;
+}
+
+.label {
+    display: inline-block;
+    width: 150px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+input[name="sheetName"] {
+    width: 300px;
+}
+
+#sheetSubject {
+    position: relative;
+    top: -20px;
+}
+
+textarea[name="sheetSubject"] {
+    margin-top: 10px;
+    width: 300px;
+    height: 50px;
+}
+
+input[name="userDetailFile"] {
+    display: none;
+}
+
+.userDetailRequirement {
+    display: none;
+    margin-top: 10px;
+}
+
+/*========================================*/
+.sheetInfoFieldsetContainer {
+    width: 55%;
+    float: left;
+}
+
+.sheetInfoFieldset {
+    margin: 20px;
+    padding: 20px;
+}
+
+.sheetInfoFieldset .Introduction {
+    color: red;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.sheetInfoFieldset legend {
+    padding: 5px;
+}
+
+.sheetInfoFieldset input {
+    width: 150px;
+}
+
+.sheetInfoFieldset input[type="checkbox"] {
+    width: 10px;
+}
+
+#emailNotification {
+    -ms-transform: scale(1.5); /* IE */
+    -moz-transform: scale(1.5); /* FireFox */
+    -webkit-transform: scale(1.5); /* Safari and Chrome */
+    -o-transform: scale(1.5); /* Opera */
+}
+
+.sheetInfoButtonContainer {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.sheetInfoButtonContainer button {
+    margin: 0px 5px 0px 5px;
+    padding: 2px 5px 2px 5px;
+}
+
+.sheetInfoText {
+    display: inline-block;
+}
+
+.sheetInfoInput {
+    display: none;
+}
+
+.sheetInfoInput .label {
+    text-align: right;
+}
+
+.sheetInfoInput .label img {
+    cursor: pointer;
+}
+
+.plusImg {
+    margin-top: 10px;
+}
+
+.minusImg {
+    margin-top: 10px;
+}
+
+.sheetInfoDorpdownList {
+    display: none;
+}
+
+.sheetInfoDorpdownListContent {
+    display: none;
+    text-align: center;
+    width: 150px;
+}
+
+.sheetInfoDorpdownListContent input {
+    width: 130px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.sheetInfoCheckBox {
+    display: none;
+}
+
+.sheetInfoCheckBoxContent {
+    display: none;
+    text-align: center;
+    width: 150px;
+}
+
+.sheetInfoCheckBoxContent input {
+    width: 130px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.sheetInfoRadio {
+    display: none;
+}
+
+.sheetInfoRadioContent {
+    display: none;
+    text-align: center;
+    width: 150px;
+}
+
+.sheetInfoRadioContent input {
+    width: 130px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.TextBTN {
+    display: none;
+}
+
+/*========================================*/
+.sheetFeedbackContainer {
+    width: 45%;
+    float: left;
+}
+
+.sheetFeedbackFieldset {
+    margin: 20px;
+    padding: 20px;
+}
+
+.sheetFeedbackFieldset .Introduction {
+    color: red;
+    margin-bottom: 15px;
+    font-size: 18px;
+}
+
+.sheetFeedbackFieldset .Introduction2 {
+    color: red;
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+
+.sheetFeedbackFieldset legend {
+    padding: 5px;
+}
+
+.feedback {
+    background-color: white;
+    margin: 0 auto;
+    width: 95%;
+    padding: 10px;
+    height: 150px;
+    border: 1px lightGray solid;
+    overflow: auto;
+}
+
+.feedbackBTN {
+    margin: 0 auto;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.feedbackBTN button {
+    width: 100px;
+    margin: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+/*========================================*/
+.categoryGap {
+    visibility: hidden;
+}
+
+.categoryTitle {
+    margin: 0 15px;
+    display: inline-block;
+    text-align: center;
+    width: 50px;
+}
+
+.sheetOtherInformationCategoryFieldset {
+    margin: 20px;
+    padding: 20px;
+}
+
+.sheetOtherInformationCategoryFieldset legend {
+    padding: 5px;
+}
+
+#otherInformationCategory {
+    width: 60px;
+}
+
+#category1 {
+    width: 60px;
+    margin-left: 20px;
+}
+
+#category2 {
+    display: none;
+    width: 60px;
+    margin-left: 20px;
+}
+
+#category3 {
+    display: none;
+    width: 60px;
+    margin-left: 20px;
+}
+
+#category4 {
+    display: none;
+    width: 60px;
+    margin-left: 20px;
+}
+
+#category5 {
+    display: none;
+    width: 60px;
+    margin-left: 20px;
+}
+
+/*========================================*/
+.otherInformationCheckBox {
+    margin-left: 20px;
+    font-size: 17px;
+    clear: both;
+}
+
+.otherInformationCheckBox p {
+    color: red;
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.otherInformationCheckBox label{
+    font-weight: bold;
+}
+
+#isOtherInformation {
+    -ms-transform: scale(1.5); /* IE */
+    -moz-transform: scale(1.5); /* FireFox */
+    -webkit-transform: scale(1.5); /* Safari and Chrome */
+    -o-transform: scale(1.5); /* Opera */
+}
+
+/*========================================*/
+.sheetOtherInformationFieldset {
+    margin: 20px;
+    padding: 20px;
+}
+
+#sheetOtherInformationFieldset2 {
+    display: none;
+}
+
+#sheetOtherInformationFieldset3 {
+    display: none;
+}
+
+#sheetOtherInformationFieldset4 {
+    display: none;
+}
+
+#sheetOtherInformationFieldset5 {
+    display: none;
+}
+
+.sheetOtherInformationFieldset legend {
+    padding: 5px;
+}
+
+.sheetOtherInformationFieldset input {
+    width: 150px;
+}
+
+.sheetOtherInfoButtonContainer {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.sheetOtherInfoButtonContainer button {
+    margin: 0px 5px 0px 5px;
+    padding: 2px 5px 2px 5px;
+}
+
+.sheetOtherInfoText {
+    display: inline-block;
+}
+
+.sheetOtherInfoInput {
+    display: none;
+}
+
+.sheetOtherInfoInput .label {
+    text-align: right;
+}
+
+.sheetOtherInfoInput .label img {
+    cursor: pointer;
+}
+
+.sheetOtherInfoDorpdownList {
+    display: none;
+}
+
+.sheetOtherInfoDorpdownListContent {
+    display: none;
+    text-align: center;
+    width: 150px;
+}
+
+.sheetOtherInfoDorpdownListContent input {
+    width: 130px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.sheetOtherInfoCheckBox {
+    display: none;
+}
+
+.sheetOtherInfoCheckBoxContent {
+    display: none;
+    text-align: center;
+    width: 150px;
+}
+
+.sheetOtherInfoCheckBoxContent input {
+    width: 130px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.sheetOtherInfoRadio {
+    display: none;
+}
+
+.sheetOtherInfoRadioContent {
+    display: none;
+    text-align: center;
+    width: 150px;
+}
+
+.sheetOtherInfoRadioContent input {
+    width: 130px;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.TextBTNOther {
+    display: none;
+}
+
+/*========================================*/
+.sheetOtherInformationCategoryFieldsetContainer {
+    clear: both;
+    display: none;
+}
+
+/*========================================*/
+.sheetOtherInformationFieldsetContainer {
+    clear: both;
+    display: none;
+    width: 80%;
+    margin: 0 auto;
+}
+
+/*========================================*/
+.sheetOrganizerFieldsetContainer {
+    clear: both;
+    display: none;
+}
+
+.sheetOrganizerFieldset {
+    margin: 20px;
+    padding: 20px;
+}
+
+.sheetOrganizerFieldset legend {
+    padding: 5px;
+}
+
+.sheetOrganizerFieldset input {
+    width: 150px;
+}
+
+#usernameLabel {
+    display: none;
+}
+
+/*========================================*/
+.formBTN {
+    clear: both;
+    margin: 20px;
+}
+
+.formBTN input {
+    margin: 0px 5px 0px 5px;
+    padding: 2px 5px 2px 5px;
+}

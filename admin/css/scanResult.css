@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{ 
+    background: url(../../image/background.jpg) no-repeat;
+    background-size:cover;
+}
+
+.msg {
+    color: red;
+    text-align: center;
+}
+
+/*========================================*/
+.title {
+    text-align: center;
+    margin: 10px;
+}
+
+/*========================================*/
+.imgContainer {
+    text-align: center;
+    margin: 10px;
+}
+
+.imgContainer img{
+    width: 300px;
+}
+
+
+/*========================================*/
+.otherInformationContainer {
+    margin-top: 20px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.label {
+    display: inline-block;
+    width: 250px;
+    margin-top: 10px;
+}
+
+select {
+    width: 250px;
+    height: 25px;
+}
+
+.radioContainer {
+    text-align: center;
+}
+
+.radioContainer input[type="radio"] {
+    margin-right: 10px;
+}
+
+.radioItemContainer {
+    display: inline-block;
+    width: 250px;
+    text-align: left;
+}
+
+.checkBoxContainer {
+    text-align: center;
+}
+
+.checkBoxContainer input[type="checkbox"] {
+    margin-right: 10px;
+    -ms-transform: scale(1.5); /* IE */
+    -moz-transform: scale(1.5); /* FireFox */
+    -webkit-transform: scale(1.5); /* Safari and Chrome */
+    -o-transform: scale(1.5); /* Opera */
+}
+
+.checkBoxItemContainer {
+    display: inline-block;
+    width: 250px;
+    text-align: left;
+}
+
+.formBTN {
+    margin-top: 20px;
+}
+
+.formBTN input{
+    width: 250px;
+    font-size: 25px;
+    padding: 3px 5px 3px 5px;
+}
+
+.backBTNContainer {
+    text-align: center;
+    font-size: 25px;
+}
+
+.backToScannerBTN {
+    margin: 15px;
+    width: 250px;
+    font-size: 25px;
+    padding: 3px 5px 3px 5px;
+}

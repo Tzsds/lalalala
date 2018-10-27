@@ -1,0 +1,101 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{ 
+    background: url(../../image/background.jpg) no-repeat;
+    background-size:cover;
+}
+
+.msg {
+    text-align: center;
+    color: red;
+}
+
+/*========================================*/
+.title {
+    text-align: center;
+    margin: 10px;
+}
+
+.subtitle {
+    text-align: center;
+    margin: 10px;
+}
+
+.subject {
+    text-align: center;
+    margin: 10px;
+}
+
+/*========================================*/
+form {
+    margin-top: 20px;
+    font-size: 25px;
+}
+
+.registrationContainer {
+    text-align: center;
+}
+
+.label {
+    display: inline-block;
+    width: 250px;
+    margin-bottom: 5px;
+}
+
+.registrationContainer input[type="text"] {
+    height: 25px;
+    width: 250px;
+}
+
+select {
+    width: 250px;
+    font-size: 25px;
+}
+
+.registrationContainer input[type="radio"] {
+    margin-right: 10px;
+}
+
+.radioContainer {
+    display: inline-block;
+    width: 250px;
+}
+
+.radioItemContainer {
+    display: inline-block;
+    width: 250px;
+    text-align: left;
+}
+
+.registrationContainer input[type="checkbox"] {
+    margin-right: 10px;
+    -ms-transform: scale(1.5); /* IE */
+    -moz-transform: scale(1.5); /* FireFox */
+    -webkit-transform: scale(1.5); /* Safari and Chrome */
+    -o-transform: scale(1.5); /* Opera */
+}
+
+.checkBoxContainer {
+    display: inline-block;
+    width: 250px;
+}
+
+.checkBoxItemContainer {
+    display: inline-block;
+    width: 250px;
+    text-align: left;
+}
+
+.formBTN {
+    margin: 15px;
+}
+
+.formBTN input{
+    margin: 15px;
+    width: 250px;
+    padding: 3px 5px 3px 5px;
+    font-size: 25px;
+}

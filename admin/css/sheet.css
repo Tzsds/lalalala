@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{ 
+    background: url(../../image/background.jpg) no-repeat;
+    background-size:cover;
+}
+
+.msg {
+    color: red;
+}
+
+/*========================================*/
+.title {
+    text-align: center;
+    margin: 10px;
+}
+
+.email {
+    margin: 10px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.label {
+    display: inline-block;
+    width: 150px;
+}
+
+/*========================================*/
+table {
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.sheetSubject {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+table button {
+    padding: 2px 4px 2px 4px;
+    margin: 2px;
+}
+
+/*========================================*/
+.addSheetAndLogoutBTN {
+    margin: 20px;
+    text-align: right;
+}
+
+.addSheetAndLogoutBTN button {
+    padding: 5px 3px 5px 3px;
+}

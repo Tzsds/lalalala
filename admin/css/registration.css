@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{ 
+    background: url(../../image/background.jpg) no-repeat;
+    background-size:cover;
+}
+
+.msg {
+    margin: 10px;
+    color: red;
+}
+
+/*========================================*/
+.title {
+    margin: 10px;
+    text-align: center;
+}
+
+.subtitle {
+    margin: 10px;
+}
+
+.registrationContainer {
+    text-align: center;
+}
+
+.registrationContainer input[type="email"] {
+    width: 150px;
+}
+
+.formBTN {
+    display: inline-block;
+}
+
+.formBTN input{
+    width: 80px;
+    padding: 2px 5px 2px 5px;
+}
+
+.formBTN button{
+    width: 80px;
+    padding: 2px 5px 2px 5px;
+}
